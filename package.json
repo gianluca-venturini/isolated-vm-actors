@@ -1,0 +1,27 @@
+{
+  "name": "isolated-agents",
+  "version": "1.0.0",
+  "description": "Demo application for showing how to create isolated agents using isolated-vm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "clean": "rm -rf node_modules build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "isolated-vm": "^1.7.6",
+    "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.18",
+    "@types/websocket": "0.0.40",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
